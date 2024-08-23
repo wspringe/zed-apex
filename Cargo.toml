@@ -1,0 +1,14 @@
+[package]
+name = "apex-lsp"
+version = "0.1.0"
+edition = "2021"
+publish = false
+license = "MIT"
+
+[lib]
+path = "src/apex.rs"
+crate-type = ["cdylib"]
+
+[dependencies]
+reqwest = { version = "0.12.7", features = ["blocking", "json"] }
+zed_extension_api = "0.1.0"

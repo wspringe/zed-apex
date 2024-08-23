@@ -1,0 +1,15 @@
+id = "apex"
+name = "Salesforce Apex"
+version = "0.0.1"
+schema_version = 1
+authors = ["Wesley Springer <wspringe@outlook.com>"]
+description = "Apex language support for Zed"
+repository = "https://github.com/wspringe/zed-apex.git"
+
+[grammars.apex]
+repository = "https://github.com/aheber/tree-sitter-sfapex.git"
+commit = "602cc4b050ef1e14a69acc2ea094968bf928fa59"
+
+[language_servers.apex]
+language = "Apex"
+name = "Apex LSP"
